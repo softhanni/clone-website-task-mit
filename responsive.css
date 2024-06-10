@@ -1,0 +1,234 @@
+
+@media (max-width: 480px) {
+
+    .container img {
+        width:100%;
+        height: 868px;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .mainHeadings {
+        /* height: 280px; */
+        width: 90%;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        margin-top: 200px;
+    
+    }
+    .h1 {
+        color: white;
+        font-size: 2em;
+        z-index: 1;
+    }
+    
+    .h2 {
+        color: white;
+        font-size: 3.5em;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .btn1 {
+        margin-top: 20px;
+    }
+
+    .products {
+        width: 90%;
+        /* background-color: rgb(3, 146, 99); */
+        /* margin: auto; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* gap: 25px; */
+    } 
+
+    .product1 {
+        background-color: rgb(170, 191, 192);
+        width: 100%;
+        height: 380px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container2 {
+        height: auto;
+        margin: auto;
+    }
+
+    
+.services {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.ser1 {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.container3 {
+    background-color: rgba(168, 161, 161, 0.527);
+    height: auto;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+
+}
+
+    .members {
+        
+        margin: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+
+    .companies {
+        margin: auto;
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .companies img {
+        width: 75%;
+        padding-top: 20px;
+    
+    }
+
+    .container5 img {
+        width: 100%;
+        height: 850px;
+        position: absolute;
+        z-index: -1;
+    
+    }
+
+    .contact {
+        /* background-color: aqua; */
+        margin: auto;
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+
+    .detail,
+.message {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.detail input {
+    width: 100%;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3em;
+    margin-top: 10px;
+    padding-left: 10px;
+    color: black;
+    font-weight: bolder;
+
+}
+
+.container6 {
+    /* background-color: aqua; */
+    width: 90%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 185px;
+}
+.copyright,
+.sc,
+.pages {
+    width: 210px;
+}
+
+
+
+.checkbtn{
+    display: block;
+z-index: 81;
+}
+
+ul{
+    position: fixed;
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(5, 139, 139);
+   top: -700px;
+   text-align: center; 
+   z-index: 80;
+   transition: all .5s;
+}
+.more{
+    position: fixed;
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(2, 59, 97);
+   top: 0;
+   text-align: center; 
+   z-index: 80;
+   transition: all .5s;
+}
+
+header ul li{
+    display: block;
+position: relative;
+top: 60px;
+z-index: 80;
+
+}
+
+header ul li:hover{
+background-color: rgba(0, 89, 255, 0.911);
+}
+header ul li a{
+    font-size: 30px;
+}
+
+
+
+
+}
