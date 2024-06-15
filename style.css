@@ -70,6 +70,7 @@ color: yellow;
     position: absolute;
     top: 0;
     z-index: -1;
+    height: 868px;
 }
 
 .shade {
@@ -407,7 +408,7 @@ color: yellow;
     justify-content: space-around;
     align-items: center;
     margin: auto;
-    margin-top: 185px;
+    margin-top: 250px;
 }
 
 .pages {
